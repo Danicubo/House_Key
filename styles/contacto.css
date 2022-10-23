@@ -1,0 +1,104 @@
+:root {
+    --backgroundColor: black;
+    --fontColor: white;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+} 
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:#8c8c8c ;
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+background: white;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #8c8c8c;    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 3px solid #8c8c8c;  /* creates padding around scroll thumb */
+}
+
+a{
+    color:black;
+    font-weight:normal;
+    text-decoration: none;
+}
+
+header{
+    -webkit-box-shadow: 0px 14px 22px -8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 14px 22px -8px rgba(0,0,0,0.52);
+    box-shadow: 0px 14px 22px -8px rgba(0,0,0,0.52);
+    background-color: #8c8c8c;
+}
+
+.nav-container {
+    background-color: white;
+    font-size: 1.8rem;
+}
+
+.volver {
+    margin-top: 2rem;
+    background-color: black;
+    width: 15rem;
+    height: 4rem;
+}
+
+.volver-a {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.volver-a:hover {color: white;}
+
+/* Formulario */
+
+form {
+    height: 52rem;
+}
+
+label {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+input {
+    text-align: center;
+    padding: 1rem;
+    width: 25rem;
+    height: 3rem;
+    border:none;
+    margin-top: 1rem;
+}
+
+.image-container {
+    background: url(../imagenes/sala1.jpg);
+    background-size: cover; background-repeat: no-repeat;
+}
+
+textarea {
+    width: 50%;
+}
+
+/* Hovers */
+
+.contacto:hover, .nosotros:hover, .propiedades:hover {
+    text-decoration: underline;
+    color:#8c8c8c;
+}
